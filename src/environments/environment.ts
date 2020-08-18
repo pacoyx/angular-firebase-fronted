@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  url: 'http://localhost:5000/appcontactos-a1718/us-central1',
+  firebase: {
+    apiKey: 'AIzaSyDisJ08hl0oHQTYJXALkXSJvXOVZKahbm0',
+    authDomain: 'appcontactos-a1718.firebaseapp.com',
+    databaseURL: 'https://appcontactos-a1718.firebaseio.com',
+    projectId: 'appcontactos-a1718',
+    storageBucket: 'appcontactos-a1718.appspot.com',
+    messagingSenderId: '708715179302',
+    appId: '1:708715179302:web:2080a6629ef5050a57a5e7'
+  }
 };
 
 /*
